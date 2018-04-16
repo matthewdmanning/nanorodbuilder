@@ -1,0 +1,82 @@
+### Ligand Info
+### Sulfur Indices
+# mol2_dir: '/home/mdmannin/Desktop/Ligands/Charged/'
+# Amines: Alkyl +1
+# C6NH3: 23
+# C11NH3: 1
+#
+# Alkanes: Hydrophobic
+# C7: 8
+# C8: 1
+# C12: 12
+#
+# Amines: PEG Backbone
+# P2NH3: 1 # 2C linker *9-chain + S
+# P3NH3: 1
+# 3P2NH3: 1 # 3C linker *10-chain + S
+# 3P3NH3: 1
+# xpeg2guan: 12
+# xpeg3guan: 33
+# xbutylguan: 0
+# xundecguan: 26
+#
+# Hydrophobic Alkyl-PEG from Rotello Lab
+# RL1: 1 # Trimethyl
+# RL2: 1 # Dimethyl,ethyl
+# RL3: 1 # Dimethyl,butyl
+# RL4: 1 # Dimethyl,hexyl
+
+# Mixed Monolayer Ligands from Rotello Lab
+# RM1: 1
+# RM2: 1 # C10NH3 +1
+# RM3: 1 # C10NMe2 Neutral
+# RM4: 1 # C10NHMe2 +1
+# RM5: 1 # C10NMe3 +1
+
+# Hydroxyl: PEG Backbone
+# PG3: 1 # S-PEG3 *9-chain + S
+# PG4: 1
+# PH2: 1 # S-Me-PEG2 *7 chain + S
+# PH3: 1 # S-Me-PEG3
+# PH4: 1 # S-Me-PEG4
+
+# Unsaturated Ligands: Alkyl
+# 3C11NH3: 1
+# 6C11NH3: 1
+# 9C11NH3: 1
+# 36C11NH3: 1
+# 39C11NH3: 1
+# 69C11NH3: 1
+# 369C11NH3: 1
+
+# Diethyl-amino-ethanethiol DOI: 10.1021/acs.jpcc.7b01424 J. Phys. Chem. C, 2017, 121 (14), pp 8002–8013
+# DEA: 1    # NP +1
+# DEU: 1    # NP uncharged
+# DEAF: 1   # Free +1
+# DEAUF: 1  # Free uncharged
+
+# Hydroxyl: Alkyl
+# C11OH: 1
+# C6OH: 1
+
+#
+# Sterically Hindered
+# Me2BuNH: 1
+# Me3BuN: 1
+# Et3BuN: 1
+# nPr3BuN: 1
+# nBu3BuN: 1
+#
+# Nakamura Ligands
+# NH3EG6C11: 80
+# OHEG6C11: 78
+
+#Photoswitchable Ligands
+# trans-2OTAB: 19
+# cis-2OTAB
+# C2N-cis-2OTAB: 29
+# C2N-trans-2OTAB
+# C4A-cis-2TAB: 18
+# C4A-trans-2OTAB: 19
+
+####

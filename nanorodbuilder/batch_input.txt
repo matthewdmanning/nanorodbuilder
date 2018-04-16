@@ -1,0 +1,7 @@
+### Input file for constructing nanorods using nanorod_builder.py
+LENGTH=50,60,70,80,90
+RADIUS=10,12,15,20
+DENSITY=
+RATIO=
+LIGAND1=
+LIGAND2=

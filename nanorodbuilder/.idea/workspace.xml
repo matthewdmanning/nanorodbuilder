@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="FILTER_RESOLVED_ITEMS" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../amber_server_tools/python_analysis/just_histograms.py" line="268" mnemonic="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f75d087b-6f4c-445d-b68d-4579832a9ad6" name="Fix function that picks surface atoms for nanorod." comment="Modifies Nanoparticle class to allow a LigandInfo: ligand_num dict to be passed. This ensures proper assign of specific LigandType objects to PlaceholderTypes.&#10;&#10;Also updates scripts that generate AMBER atom types with antechamber and writes correct .mol2 files. Automatic backup of REDS .mol2 and overwrite option.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParticlePickler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/make_surface.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ligands/DensityRenamer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Molecules.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NanoBuilderDirectional.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_solvate.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data_reader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deprecated_functions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trajin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualization_tools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vmd_corona.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LigandSysBuilder.py" afterPath="$PROJECT_DIR$/ligandsysbuilder.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lattice_builder.py" afterPath="$PROJECT_DIR$/latticebuilder.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/leapgoldbinder.py" afterPath="$PROJECT_DIR$/Archives/leapgoldbinder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ligands/atomtypereplacer.py" afterPath="$PROJECT_DIR$/Ligands/atomtypereplacer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ligands/frcmod_from_parmchk2.sh" afterPath="$PROJECT_DIR$/Ligands/frcmod_from_parmchk2.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NanoDisc/discleapgoldbinder.py" afterPath="$PROJECT_DIR$/NanoDisc/discleapgoldbinder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NanoParticle.py" afterPath="$PROJECT_DIR$/NanoParticle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System.py" afterPath="$PROJECT_DIR$/System.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch_input.txt" afterPath="$PROJECT_DIR$/batch_input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cluster_input.txt" afterPath="$PROJECT_DIR$/cluster_input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/free_ligand_builder.py" afterPath="$PROJECT_DIR$/free_ligand_builder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geometry_tools.py" afterPath="$PROJECT_DIR$/geometry_tools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hemisphere_xyz.py" afterPath="$PROJECT_DIR$/hemisphere_xyz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ligand_info.txt" afterPath="$PROJECT_DIR$/ligand_info.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nanorod_builder.py" afterPath="$PROJECT_DIR$/nanorod_builder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script_writing_object.py" afterPath="$PROJECT_DIR$/script_writing_object.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script_writing_tools.py" afterPath="$PROJECT_DIR$/script_writing_tools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traj_corona_writer.py" afterPath="$PROJECT_DIR$/traj_corona_writer.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nanorodbuilder" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cluster_input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="latticebuilder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/latticebuilder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster_builder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cluster_builder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1114">
+              <caret line="69" column="64" lean-forward="false" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Molecules.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../amber_server_tools/python_analysis/Molecules.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nanorod_builder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nanorod_builder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5580">
+              <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NanoParticle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NanoParticle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4626">
+              <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#8461#9595#0" expanded="false" />
+                <element signature="e#10738#10855#0" expanded="false" />
+                <element signature="e#10965#11396#0" expanded="false" />
+                <element signature="e#11436#12023#0" expanded="false" />
+                <element signature="e#21622#23256#1" expanded="false" />
+                <element signature="e#27453#27491#0" expanded="false" />
+                <element signature="e#28867#28916#0" expanded="false" />
+                <element signature="e#28969#29010#0" expanded="false" />
+                <element signature="e#29076#30032#0" expanded="false" />
+                <element signature="e#30668#31143#1" expanded="false" />
+                <marker date="1520526582179" expanded="false" signature="12057:12300" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nanorodbatchrefactor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nanorodbatchrefactor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2412">
+              <caret line="189" column="118" lean-forward="false" selection-start-line="189" selection-start-column="118" selection-end-line="189" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hemisphere_xyz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hemisphere_xyz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="74" lean-forward="false" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vmd_corona.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../amber_server_tools/python_analysis/vmd_corona.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-651">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Duplicat</find>
+      <find>caplength</find>
+      <find>Numpy arr</find>
+      <find>nanorod_builder</find>
+      <find>leapt</find>
+      <find>addions</find>
+      <find>canal_all</find>
+      <find>pol</find>
+      <find>bp_param_matrix</find>
+      <find>self.surface_atoms</find>
+      <find>amber_name</find>
+      <find>nanoparticle.amber_name</find>
+      <find>ligand_type</find>
+      <find>amber_alias</find>
+      <find>parent</find>
+      <find>bond</find>
+      <find>template</find>
+      <find>debug</find>
+      <find>surface</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{}</replace>
+      <replace>bp_param_flattened</replace>
+      <replace>potential_sites</replace>
+      <replace>nanoparticle.amber_unit_name</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Matthew" />
+        <option value="i)" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="NanoParticles_Classes" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Analysis/canal.sh" />
+        <option value="$PROJECT_DIR$/Analysis/analysis.sh" />
+        <option value="$PROJECT_DIR$/CurvesCanal/curvesplot.py" />
+        <option value="$PROJECT_DIR$/Analysis/canal_mover.sh" />
+        <option value="$PROJECT_DIR$/Analysis/nucleic_analysis.sh" />
+        <option value="$PROJECT_DIR$/Analysis/dnacurve.py" />
+        <option value="$PROJECT_DIR$/Analysis/nucleic_analysis.py" />
+        <option value="$PROJECT_DIR$/parm_transfer.sh" />
+        <option value="$PROJECT_DIR$/inFiles/vacmin.in" />
+        <option value="$PROJECT_DIR$/inFiles/min.igb.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/md.weak.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/md.lang.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/heat.weak.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/heat.lang.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/equil2.lang.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/equil2.weak.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/equil1.weak.pme.mdin" />
+        <option value="$PROJECT_DIR$/inFiles/equil1.lang.pme.mdin" />
+        <option value="$PROJECT_DIR$/Ligands/Solvater.py" />
+        <option value="$PROJECT_DIR$/CurvesCanal/parm_scraper.sh" />
+        <option value="$PROJECT_DIR$/Molecules.py" />
+        <option value="$PROJECT_DIR$/data_reader.py" />
+        <option value="$PROJECT_DIR$/bash/folder_setup.sh" />
+        <option value="$PROJECT_DIR$/CurvesCanal/curves_input.sh" />
+        <option value="$PROJECT_DIR$/bash/cpptraj_in_writer.sh" />
+        <option value="$PROJECT_DIR$/Ligand.py" />
+        <option value="$PROJECT_DIR$/bash/amber.sh" />
+        <option value="$PROJECT_DIR$/bash/server_git.sh" />
+        <option value="$PROJECT_DIR$/../amber_server_tools/bash/server_git.sh" />
+        <option value="$PROJECT_DIR$/../amber_server_tools/bash/run_amber.sh" />
+        <option value="$PROJECT_DIR$/Ligands/renamingscript.sh" />
+        <option value="$PROJECT_DIR$/Ligands/renamescript.py" />
+        <option value="$PROJECT_DIR$/auto_solvate.sh" />
+        <option value="$PROJECT_DIR$/census.sh" />
+        <option value="$PROJECT_DIR$/script_writing_tools.py" />
+        <option value="$PROJECT_DIR$/NanoParticle.py" />
+        <option value="$PROJECT_DIR$/batch_input.txt" />
+        <option value="$PROJECT_DIR$/Ligands/atomtypereplacer.py" />
+        <option value="$PROJECT_DIR$/Ligands/frcmod_from_parmchk2.sh" />
+        <option value="$PROJECT_DIR$/ligand_info.txt" />
+        <option value="$PROJECT_DIR$/geometry_tools.py" />
+        <option value="$PROJECT_DIR$/script_writing_object.py" />
+        <option value="$PROJECT_DIR$/cluster_builder.py" />
+        <option value="$PROJECT_DIR$/ParticlePickler.py" />
+        <option value="$PROJECT_DIR$/make_surface.py" />
+        <option value="$PROJECT_DIR$/leapgoldbinder.py" />
+        <option value="$PROJECT_DIR$/traj_corona_writer.py" />
+        <option value="$PROJECT_DIR$/nanorod_builder.py" />
+        <option value="$PROJECT_DIR$/System.py" />
+        <option value="$PROJECT_DIR$/hemisphere_xyz.py" />
+        <option value="$PROJECT_DIR$/cluster_input.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="53" />
+    <option name="y" value="116" />
+    <option name="width" value="1867" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nanorodbuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nanorodbuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanorodbuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nanorodbuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="Archives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanorodbuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nanorodbuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="Ligands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanorodbuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="nanorodbuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5.2 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Archives" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="CommandLine" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/nanorodbatchrefactor.py" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="nanorodbuilder" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="nanorodbuilder" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/CurvesCanal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Archives" />
+      <recent name="$PROJECT_DIR$/../amber_server_tools/bash" />
+      <recent name="$PROJECT_DIR$/../amber_server_tools" />
+      <recent name="$PROJECT_DIR$/CurvesCanal" />
+      <recent name="$PROJECT_DIR$/Ligands" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_run">
+    <configuration name="Doctests in geometry_tools" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometry_tools.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration name="NanoParticle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NanoParticle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="NanoParticle" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nanorod_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="frcmod_from_parmchk2.sh" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ligands" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ligands/frcmod_from_parmchk2.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="nanorodbuilder" />
+      <envs />
+    </configuration>
+    <configuration name="gyrationtensor" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/gyrationtensor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="leaptotalbuilder (1)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leaptotalbuilder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="make_surface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_surface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="nanorod_builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nanorod_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_run" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nanorodbuilder" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cluster_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Bash.frcmod_from_parmchk2.sh" />
+      <item index="1" class="java.lang.String" itemvalue="Python.leaptotalbuilder (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gyrationtensor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_run" />
+      <item index="4" class="java.lang.String" itemvalue="Python.NanoParticle" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Doctests in geometry_tools" />
+      <item index="6" class="java.lang.String" itemvalue="Python.nanorod_builder" />
+      <item index="7" class="java.lang.String" itemvalue="Python.make_surface" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.make_surface" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nanorod_builder" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NanoParticle" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in geometry_tools" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task id="Default" summary="Default task">
+      <created>1502122049788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505434417847</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Fix sporadic bug in minimium_index assignment">
+      <created>1505434407870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513010716922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Beginning of refactoring to consolidate functions between modules. Also, extend functionality for future projects.&#10;New Modules:&#10;-geometry_tools&#10;-script_writing_tools&#10;&#10;Also renaming functions and variables to be more informative and explicitly state each variable's type (eg. numpy array, list, tuple)">
+      <created>1505521291419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505521291419</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Moved most functions to new, separate module for writing Leap scripts. Still need to clean up the main script writing function for cluster-builder.">
+      <created>1505533765479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505533765479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Uses new function (geometry_tools.get_surface_index) to identify surface atoms based on their coordination number instead of on distance from center. Previous method overestimated number of surface atoms and therefore bonded ligands to bulk atoms. This should reduce strain on systems during minimization and MD.">
+      <created>1506136033075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506136033075</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finally fixes duplicate bond writing caused by bonding [surface, core] and [core, surface]. This update sorted indices before adding to index_pairs_tuple (nice, but not essential) and check for existing bond before passing nearest_neighbor_index_list to choose_from_neighbors function in geometry_tools (fix).&#10;&#10;Next step is to implement check in script_writing_tools to avoid (warn if necessary) for function script.">
+      <created>1506615581638</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506615581638</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixes problems with cluster_builder and supporing modules.&#10;Adds free_ligand_builder (meant to build systems with physisorbed ligands). Still needs work.&#10;Corrects issues with AMBER input files">
+      <created>1506810015580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506810015580</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updates input files.">
+      <created>1506978602330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1506978602330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Script for save every 10th frame with all atoms and saving every frame of solute-only.&#10;&#10;Automatically deletes original trajectory, after checking that output files exist.">
+      <created>1507687129975</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507687129975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixes problems with cluster_builder and supporing modules.&#10;Adds free_ligand_builder (meant to build systems with physisorbed ligands). Still needs work.&#10;Corrects issues with AMBER input files">
+      <created>1509933283256</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1509933283256</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Backup save.">
+      <created>1510086960556</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1510086960556</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Backup save.">
+      <created>1510806701998</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1510806701998</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Renames variable more descriptive, switches to fprint, and checks for existing frcmod file.">
+      <created>1510866476285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1510866476285</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Absorbs atomtype.sh script and incorporates the call to antechamber into existing loop.">
+      <created>1510866794959</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1510866794959</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Backup save.">
+      <created>1511216231860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1511216231860</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Only includes AMBER input files.&#10;&#10;Removed unnecessary parameters (eg. vrandom, which only applies for Andersen thermostatting.&#10;&#10;Increased coupling constants for heat and equil1 steps to make for more natural heat trajectory. Velocities will be moderated by the harmonic restraints.">
+      <created>1512159680439</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1512159680439</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Reorganizes files to place all ligand-specific scripts in the same directory.">
+      <created>1512159832767</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1512159832767</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Improves script for running amber.&#10;Adds command line control of loop type (folder or .prmtop based), run type(full md, prod run, or vacuum minimization).&#10;Also adds checking for input files.&#10;Fixes globbing error that results in creation of */ directory, etc.">
+      <created>1512343495624</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512343495624</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Creates cpu_minimize functions that run PME minimization.&#10;Modifies job_runner function to first call cpu_minimize, wait for completion, then call amber, and run next minimization. This prevents too many jobs running on the CPU and slowing down pmemd runs.&#10;Fixes typo in vacmin (cpptaj to cpptraj).">
+      <created>1512434891306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1512434891306</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adds support for glob pattern with -p argument.&#10;Changes all echo commands to printf for robustness (hopefully).&#10;Adds text output when .rst7 file is not found and run is terminated.">
+      <created>1512502573000</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1512502573000</updated>
+    </task>
+    <task active="true" id="LOCAL-00020" summary="Fix function that picks surface atoms for nanorod.">
+      <changelist id="f75d087b-6f4c-445d-b68d-4579832a9ad6" name="Fix function that picks surface atoms for nanorod." comment="" />
+      <created>1513010537556</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1513010716963</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixes nearest neighbor finding function to work with 2-D Numpy arrays coordinates contained in 3D matrix of unit cells. Only compares distances with atoms in adjacent unit cells instead of the entire nanorod.">
+      <created>1513010677386</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1513010677386</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Creates Classes for Atoms, UnitCells, NPSuperLattice(just a nanoparticle), LigandType, Ligand, and System(tLeap).&#10;&#10;Backup for trying to correct inheritance of Ligand from parent LigandType when specifying a particular LigandType.">
+      <created>1513559959942</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1513559959942</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixes numerous function in nanorod_builder, NanoParticle, and script_writing_object that improve nanoparticle building in tLeap. Primarily it creates classes for &quot;generic&quot; NPs and atoms that allow for placement of ligands, without specifying type. &quot;Specific&quot; NPs and atoms are separate classes when ligand types are specified.&#10;&#10;Also fixes method for placing ligands so that they are spread evenly on the surface.">
+      <created>1515878794425</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1515878794425</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Modifies Nanoparticle class to allow a LigandInfo: ligand_num dict to be passed. This ensures proper assign of specific LigandType objects to PlaceholderTypes.&#10;&#10;Also updates scripts that generate AMBER atom types with antechamber and writes correct .mol2 files. Automatic backup of REDS .mol2 and overwrite option.">
+      <created>1516217548537</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1516217548537</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Bash script for generating tLeap input that loads FFs and solvates/salts mol2 files.">
+      <created>1516723266282</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1516723266282</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Renamed script (leaptotalbuilder.py) for generating nanorods.">
+      <created>1516723314512</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1516723314512</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updates classes used to create nanoparticles, ligands, and leap systems (NanoParticle.py) and functions for writing tLeap scripts using those classes(script_writing_object.py).">
+      <created>1516723435054</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1516723435054</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Modifies Nanoparticle class to allow a LigandInfo: ligand_num dict to be passed. This ensures proper assign of specific LigandType objects to PlaceholderTypes.&#10;&#10;Also updates scripts that generate AMBER atom types with antechamber and writes correct .mol2 files. Automatic backup of REDS .mol2 and overwrite option.">
+      <created>1517256099164</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1517256099164</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adds get_surface_atom call back.">
+      <created>1522941987480</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1522941987480</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <option name="createBranch" value="false" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctest_angle_between - 2017.09.25 at 17h 51m 13s.xml">
+      <configuration name="Doctest angle_between" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools - 2017.09.18 at 17h 46m 54s.xml">
+      <configuration name="Doctests in geometry_tools" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools - 2017.09.23 at 22h 25m 21s.xml">
+      <configuration name="Doctests in geometry_tools" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools - 2017.09.25 at 17h 50m 01s.xml">
+      <configuration name="Doctests in geometry_tools" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools - 2017.12.08 at 13h 50m 06s.xml">
+      <configuration name="Doctests in geometry_tools" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools_(1) - 2017.09.22 at 22h 51m 36s.xml">
+      <configuration name="Doctests in geometry_tools (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools_(1) - 2017.09.25 at 16h 36m 03s.xml">
+      <configuration name="Doctests in geometry_tools (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools_(1) - 2017.09.27 at 16h 30m 02s.xml">
+      <configuration name="Doctests in geometry_tools (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools_(1) - 2017.09.27 at 16h 31m 01s.xml">
+      <configuration name="Doctests in geometry_tools (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_geometry_tools_(2) - 2017.09.23 at 22h 28m 08s.xml">
+      <configuration name="Doctests in geometry_tools (2)" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="116" width="1867" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18506315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2910995" sideWeight="0.47153124" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13767442" sideWeight="0.4936429" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026178" sideWeight="0.5710337" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565445" sideWeight="0.47208402" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25262576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.49806523" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2910995" sideWeight="0.5284688" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.49595687" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293023" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3947644" sideWeight="0.42896628" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30890054" sideWeight="0.5710337" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565445" sideWeight="0.47208402" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.49806523" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16030957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.49595687" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13860466" sideWeight="0.4936429" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2911628" sideWeight="0.4851752" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Moved most functions to new, separate module for writing Leap scripts. Still need to clean up the main script writing function for cluster-builder." />
+    <MESSAGE value="Uses new function (geometry_tools.get_surface_index) to identify surface atoms based on their coordination number instead of on distance from center. Previous method overestimated number of surface atoms and therefore bonded ligands to bulk atoms. This should reduce strain on systems during minimization and MD." />
+    <MESSAGE value="Broken." />
+    <MESSAGE value="Finally fixes duplicate bond writing caused by bonding [surface, core] and [core, surface]. This update sorted indices before adding to index_pairs_tuple (nice, but not essential) and check for existing bond before passing nearest_neighbor_index_list to choose_from_neighbors function in geometry_tools (fix).&#10;&#10;Next step is to implement check in script_writing_tools to avoid (warn if necessary) for function script." />
+    <MESSAGE value="Fixes bugs in AMBER input files&#10;&#10;1) Removes vlimit namelist variable that from GPU .mdin files (not compatible with CUDA).&#10;2) MD runs now default to 5M steps (10 ns) instead of 50M.&#10;3) Optimizes amber.sh to:&#10;    i) Sort all GPUs by default and run on one card instead of two.&#10;    ii) Store mdinfo in each job's folder, instead of all overwriting each others.&#10;    iii) Fixed increment in production run md() function." />
+    <MESSAGE value="Updates input files." />
+    <MESSAGE value="Script for save every 10th frame with all atoms and saving every frame of solute-only.&#10;&#10;Automatically deletes original trajectory, after checking that output files exist." />
+    <MESSAGE value="Fixes problems with cluster_builder and supporing modules.&#10;Adds free_ligand_builder (meant to build systems with physisorbed ligands). Still needs work.&#10;Corrects issues with AMBER input files" />
+    <MESSAGE value="Renames variable more descriptive, switches to fprint, and checks for existing frcmod file." />
+    <MESSAGE value="Absorbs atomtype.sh script and incorporates the call to antechamber into existing loop." />
+    <MESSAGE value="Only includes AMBER input files.&#10;&#10;Removed unnecessary parameters (eg. vrandom, which only applies for Andersen thermostatting.&#10;&#10;Increased coupling constants for heat and equil1 steps to make for more natural heat trajectory. Velocities will be moderated by the harmonic restraints." />
+    <MESSAGE value="Reorganizes files to place all ligand-specific scripts in the same directory." />
+    <MESSAGE value="Backup save." />
+    <MESSAGE value="Improves script for running amber.&#10;Adds command line control of loop type (folder or .prmtop based), run type(full md, prod run, or vacuum minimization).&#10;Also adds checking for input files.&#10;Fixes globbing error that results in creation of */ directory, etc." />
+    <MESSAGE value="Creates cpu_minimize functions that run PME minimization.&#10;Modifies job_runner function to first call cpu_minimize, wait for completion, then call amber, and run next minimization. This prevents too many jobs running on the CPU and slowing down pmemd runs.&#10;Fixes typo in vacmin (cpptaj to cpptraj)." />
+    <MESSAGE value="Mass update." />
+    <MESSAGE value="Adds support for glob pattern with -p argument.&#10;Changes all echo commands to printf for robustness (hopefully).&#10;Adds text output when .rst7 file is not found and run is terminated." />
+    <MESSAGE value="Fixes nearest neighbor finding function to work with 2-D Numpy arrays coordinates contained in 3D matrix of unit cells. Only compares distances with atoms in adjacent unit cells instead of the entire nanorod." />
+    <MESSAGE value="Creates Classes for Atoms, UnitCells, NPSuperLattice(just a nanoparticle), LigandType, Ligand, and System(tLeap).&#10;&#10;Backup for trying to correct inheritance of Ligand from parent LigandType when specifying a particular LigandType." />
+    <MESSAGE value="Fixes numerous function in nanorod_builder, NanoParticle, and script_writing_object that improve nanoparticle building in tLeap. Primarily it creates classes for &quot;generic&quot; NPs and atoms that allow for placement of ligands, without specifying type. &quot;Specific&quot; NPs and atoms are separate classes when ligand types are specified.&#10;&#10;Also fixes method for placing ligands so that they are spread evenly on the surface." />
+    <MESSAGE value="Bash script for generating tLeap input that loads FFs and solvates/salts mol2 files." />
+    <MESSAGE value="Renamed script (leaptotalbuilder.py) for generating nanorods." />
+    <MESSAGE value="Updates classes used to create nanoparticles, ligands, and leap systems (NanoParticle.py) and functions for writing tLeap scripts using those classes(script_writing_object.py)." />
+    <MESSAGE value="Modifies Nanoparticle class to allow a LigandInfo: ligand_num dict to be passed. This ensures proper assign of specific LigandType objects to PlaceholderTypes.&#10;&#10;Also updates scripts that generate AMBER atom types with antechamber and writes correct .mol2 files. Automatic backup of REDS .mol2 and overwrite option." />
+    <MESSAGE value="Adds get_surface_atom call back." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds get_surface_atom call back." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="81" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/numpy/lib/stride_tricks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amber_server_tools/bash/server_git.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/numpy/lib/nanfunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/ATOMTYPE.INF" />
+    <entry file="file://$PROJECT_DIR$/Archives/renamingscript.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archives/ds_mol2_atom_type_replacer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amber_server_tools/Analysis/census.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_writing_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2844">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amber_server_tools/bash/auto_solvate.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/renamingscript.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/atomtype_replacer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/DensityRenamer.sh" />
+    <entry file="file://$PROJECT_DIR$/Ligands/renamescript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/mol2_atom_retyper.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_writing_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="209" column="95" lean-forward="false" selection-start-line="209" selection-start-column="95" selection-end-line="209" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#443#1277#0" expanded="false" />
+            <element signature="e#1325#2399#0" expanded="false" />
+            <element signature="e#2440#2502#0" expanded="false" />
+            <element signature="e#2549#2820#0" expanded="false" />
+            <element signature="e#17170#17531#0" expanded="false" />
+            <element signature="e#19493#22479#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ligand_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParticlePickler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pydevproject">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/atomtypereplacer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="96" lean-forward="false" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ligands/frcmod_from_parmchk2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make_surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometry_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="703" column="37" lean-forward="false" selection-start-line="703" selection-start-column="37" selection-end-line="703" selection-end-column="37" />
+          <folding>
+            <element signature="e#58#76#0" expanded="true" />
+            <element signature="e#21210#24326#1" expanded="false" />
+            <element signature="e#33315#33508#0" expanded="false" />
+            <element signature="e#33672#35763#0" expanded="false" />
+            <element signature="e#37338#37405#0" expanded="false" />
+            <element signature="e#37815#37847#0" expanded="false" />
+            <marker date="1521313780596" expanded="true" signature="2543:2904" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ligandsysbuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archives/leapgoldbinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3351">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trajin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualization_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rename.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pass_file_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traj_corona_writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/np">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amber_server_tools/python_analysis/data_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free_ligand_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deprecated_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6051">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amber_server_tools/python_analysis/Molecules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="74" lean-forward="false" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amber_server_tools/python_analysis/vmd_corona.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NanoBuilderDirectional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2177">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NanoParticle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4626">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#8461#9595#0" expanded="false" />
+            <element signature="e#10738#10855#0" expanded="false" />
+            <element signature="e#10965#11396#0" expanded="false" />
+            <element signature="e#11436#12023#0" expanded="false" />
+            <element signature="e#21622#23256#1" expanded="false" />
+            <element signature="e#27453#27491#0" expanded="false" />
+            <element signature="e#28867#28916#0" expanded="false" />
+            <element signature="e#28969#29010#0" expanded="false" />
+            <element signature="e#29076#30032#0" expanded="false" />
+            <element signature="e#30668#31143#1" expanded="false" />
+            <marker date="1520526582179" expanded="false" signature="12057:12300" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanorod_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5580">
+          <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hemisphere_xyz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanorodbatchrefactor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="189" column="118" lean-forward="false" selection-start-line="189" selection-start-column="118" selection-end-line="189" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latticebuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1114">
+          <caret line="69" column="64" lean-forward="false" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19693094" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

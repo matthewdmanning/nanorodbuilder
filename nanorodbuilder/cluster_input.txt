@@ -1,0 +1,6 @@
+### Input file for constructing nanoclusters using cluster_builder.py
+RADIUS=15
+CHARGED_LIGANDS=30,60,90,120,150,180
+TOTAL_LIGANDS=200,200,200,200,200,200
+LIGAND1=C6NH3
+LIGAND2=C7

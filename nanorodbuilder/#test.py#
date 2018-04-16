@@ -1,0 +1,17 @@
+import itertools
+import timeit
+
+iterarray = []
+looparray = []
+
+def iter(a):
+    for x,y in itertools.product(range(-100,100),range(-100,100)):
+        iterarray.append([x,y])
+
+def lope(a):
+    for x in range(-100,100):
+        for y in range(-100,100):
+            looparray.append([x,y])
+
+print timeit.timeit('iter(1)',setup = 'from __main__ import iter')
+print timeit.timeit('lope(1)',setup = 'from __main__ import lope')
